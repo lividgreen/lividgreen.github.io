@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Let's go!"
+date:   2014-11-19 03:36:50
+---
+I've decided to start a blog. So this is the first try of Jekyll. 
+
+Some code:
+
+{% highlight php %}
+<?php
+
+class MyClass
+{
+  
+  /**
+   * A comment
+   *
+   * @return bool 
+   */
+  public function test(SomeClass $obj)
+  {
+    $this->x = 42;
+    $a = "String";
+    return true;
+  }
+}
+
+{% endhighlight %}
+
+Cool!
